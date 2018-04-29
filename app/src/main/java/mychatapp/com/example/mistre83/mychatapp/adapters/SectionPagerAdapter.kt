@@ -22,7 +22,7 @@ class SectionPagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm) {
 
     override fun getPageTitle(position: Int): CharSequence? {
         when (position) {
-            0 -> return "Friends"
+            0 -> return "Users"
             1 -> return "Chats"
         }
         return null!!
