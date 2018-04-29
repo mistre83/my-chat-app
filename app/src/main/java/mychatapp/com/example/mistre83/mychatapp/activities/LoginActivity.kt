@@ -1,4 +1,4 @@
-package mychatapp.com.example.mistre83.mychatapp
+package mychatapp.com.example.mistre83.mychatapp.activities
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -10,6 +10,7 @@ import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import kotlinx.android.synthetic.main.activity_login.*
+import mychatapp.com.example.mistre83.mychatapp.R
 
 class LoginActivity : AppCompatActivity() {
     lateinit var myAuth: FirebaseAuth

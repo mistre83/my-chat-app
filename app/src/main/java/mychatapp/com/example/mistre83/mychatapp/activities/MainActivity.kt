@@ -1,4 +1,4 @@
-package mychatapp.com.example.mistre83.mychatapp
+package mychatapp.com.example.mistre83.mychatapp.activities
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_main.*
+import mychatapp.com.example.mistre83.mychatapp.R
 
 class MainActivity : AppCompatActivity() {
 
